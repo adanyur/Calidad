@@ -8,55 +8,62 @@
 </head>
 <body>
 <form>
+        <div class="text-title">
+            <h4>F419 REPORTE DE INCIDENCIA/EVENTO ADVERSO - ASISTENCIAL</h4>
+        </div>  
+               
         <div class="container">        
-                    <div class="text-title">
-                        <h4>F419 REPORTE DE INCIDENCIA/EVENTO ADVERSO - ASISTENCIAL</h4>
-                    </div>            
                     <div class="card">
                         <div class="card-body">
-                            <div class="card-title">Fecha de Incidencia/Evento Adverso</div>
-                                <input type="date"/>
-                                <div class="group-row">                                   
-                                    <label><input type="checkbox">Mañana</label>
-                                    <label><input type="checkbox">Tarde</label>
-                                    <label><input type="checkbox">Noche</label>                                          
-                                </div>
-                                <input type="text" placeholder="Ingresar historia"/>
+                            <div class="card-title"></div>
+                                <div class="card-text">
+                                    <input type="date"/>                           
+                                    <select>
+                                        <option value="">Mañana</option>
+                                        <option value="">Tarde</option>
+                                        <option value="">Noche</option>
+                                    </select>
+                                </div>                                 
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <div class="card-title">Área Asociada a la Incidencia/Evento Adverso (puede marcar más de una)</div>
+                            <div class="card-title"></div>
                             <div class="group-row">
-                                   <label><input type="checkbox"> Centro Obstétrico y Emergencia</label>
-                                   <label><input type="checkbox">Centro Quirúrgico</label>                                 
-                                   <label><input type="checkbox"> Centro Obstétrico y Emergencia</label>                              
-                                   <label><input type="checkbox">Hospitalización</label>                                  
-                                   <label><input type="checkbox">Neonatología</label>                                   
-                                   <label><input type="checkbox">Consultorios Externos / Vacunación</label> 
-                                   <label><input type="checkbox">Otros</label>                               
+
+                                    <select name="" id="">
+                                        <option value="">Centro Obstétrico y Emergencia</option>
+                                        <option value="">Centro Quirúrgico</option>
+                                        <option value="">Hospitalización</option>
+                                        <option value="">Neonatología</option>
+                                        <option value="">Consultorios Externos / Vacunación</option>
+                                        <option value="">Otros</option>
+                                    </select>
+
                             </div>
                         </div>
-                    </div>
+                    </div>                       
                     <div class="card">
                         <div class="card-body">
-                            <div class="card-title">Descripción de la Incidencia/Evento Adverso</div>
+                            <div class="card-title"></div>
+                            <input type="text" placeholder="Ingresar n° historia"/>
                             <textarea rows="5" cols="10" placeholder="Agregar descripcion"></textarea>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <div class="card-title">Colaborador involucrado al Incidente/Evento Adverso</div>
-                            <div class="group-row">
-                                    <label><input type="checkbox">Medico</label>
-                                    <label><input type="checkbox">Enfermera</label>
-                                    <label><input type="checkbox">Obstetrica</label>
-                                    <label><input type="checkbox">Tec. de Enfermeria</label>
-                            </div>
-                            <input type="text" placeholder="Otros">
+                            <div class="card-title"></div>
+                                <select name="" id="">
+                                    <option value="">Medico</option>
+                                    <option value="">Enfermera</option>
+                                    <option value="">Obstetrica</option>
+                                    <option value="">Tec. de Enfermeria</option>
+                                </select>
+                                <input type="text" placeholder="Otros">
                         </div>
                     </div>             
-        </div>       
+                            
+            </div>       
 </form>
 </body>
 </html>
