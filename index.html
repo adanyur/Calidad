@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Reporte de incidencia/Evento Adverso Asistencial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+        <div class="container">        
+                    <div class="text-title">
+                        <h4>F419 REPORTE DE INCIDENCIA/EVENTO ADVERSO - ASISTENCIAL</h4>
+                    </div>            
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">Fecha de Incidencia/Evento Adverso</div>
+                                <input type="date"/>
+                                <div class="group-row">                                   
+                                    <label><input type="checkbox">Mañana</label>
+                                    <label><input type="checkbox">Tarde</label>
+                                    <label><input type="checkbox">Noche</label>                                          
+                                </div>
+                                <input type="text" placeholder="Ingresar historia"/>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">Área Asociada a la Incidencia/Evento Adverso (puede marcar más de una)</div>
+                            <div class="group-row">
+                                   <label><input type="checkbox"> Centro Obstétrico y Emergencia</label>
+                                   <label><input type="checkbox">Centro Quirúrgico</label>                                 
+                                   <label><input type="checkbox"> Centro Obstétrico y Emergencia</label>                              
+                                   <label><input type="checkbox">Hospitalización</label>                                  
+                                   <label><input type="checkbox">Neonatología</label>                                   
+                                   <label><input type="checkbox">Consultorios Externos / Vacunación</label> 
+                                   <label><input type="checkbox">Otros</label>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">Descripción de la Incidencia/Evento Adverso</div>
+                            <textarea rows="5" cols="10" placeholder="Agregar descripcion"></textarea>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">Colaborador involucrado al Incidente/Evento Adverso</div>
+                            <div class="group-row">
+                                    <label><input type="checkbox">Medico</label>
+                                    <label><input type="checkbox">Enfermera</label>
+                                    <label><input type="checkbox">Obstetrica</label>
+                                    <label><input type="checkbox">Tec. de Enfermeria</label>
+                            </div>
+                            <input type="text" placeholder="Otros">
+                        </div>
+                    </div>             
+        </div>       
+</form>
+</body>
+</html>
